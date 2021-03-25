@@ -1,0 +1,162 @@
+body{
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  background-color: white;
+}
+
+.navbar{
+  padding: 10px 80px 10px 80px;
+}
+
+.nav-link:hover{
+  opacity: 0.4;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size:20px;
+  text-decoration:none;
+  margin-top: 0px;
+  padding-left: 5px;
+}
+
+.divimg{
+  height: 550px;
+  width: 100%;
+}
+
+.img1{
+  width: 100%;
+  height: auto;
+  padding: 30px 20px 30px 20px;
+  position: absolute;
+}
+
+.hostdiv{
+  height: 70px;
+  width: 100%;
+}
+
+#host{
+  color: white;
+  font-size:28px;
+  padding-bottom: 1px;
+  text-decoration:none;
+}
+
+.sec2{
+  padding: 30px 60px 50px 60px;
+}
+
+#live{
+  color: black;
+  font-size:35px;
+  font-weight: bold;
+  text-decoration:none;
+}
+
+.liveimg{
+  height: 320px;
+  width: 320px;
+  border-radius: 10px;
+}
+
+.livetext{
+  color: black;
+  font-size:18px;
+  text-decoration:none;
+}
+
+.sec3{
+  width: 91.8%;
+  height: 450px;
+  padding: 30px 50px 30px 50px;
+  background-image: url("Cooking-Baking-Substitutes.jpg");
+  border-radius: 14px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#worldbig{
+  padding-top: 50px;
+  font-size: 48px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 45px;
+}
+
+#worldsmall{
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding-left: 45px;
+}
+
+.reg2{
+  width: 150px;
+  height: 50px;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+.sec4{
+  padding: 60px 60px 50px 60px;
+}
+
+#notbold{
+  color: black;
+  font-size:25px;
+  text-decoration:none;
+}
+
+.expimg{
+  height: 420px;
+  width: 420px;
+  border-radius: 10px;
+}
+
+.boldtext{
+  color: black;
+  font-size:18px;
+  font-weight: bold;
+  text-decoration:none;
+}
+
+.exptext{
+  color: black;
+  font-size:18px;
+  text-decoration:none;
+}
+
+.nav-tabs {
+    margin-bottom: 15px;
+}
+.sign-with {
+    margin-top: 25px;
+    padding: 20px;
+}
+
+.reg{
+  padding-left: 10px;
+}
+
+div#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+}

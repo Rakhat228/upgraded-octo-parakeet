@@ -1,0 +1,133 @@
+body {
+background: url('https://esmmweighless.com/wp-content/uploads/2019/12/Carolyn-Cooking-Blog.jpg');
+background-attachment: fixed;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+color: #fff;
+font-family: sans-serif;
+}
+p.p1 {
+text-decoration-color: red;
+}
+.img {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.section {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+#header {
+    background: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-position: top;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.p2 {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+    color: white;
+}
+#span1 {
+  font-size: 180%;
+  color: white;
+}
+#span2 {
+  font-size: 90%;
+  color: white;
+}
+#id1 {
+  background: rgba(0, 0, 0, 0.75);
+margin: 100px;
+  color: white;
+  text-align: center;
+}
+span.span1 {
+  color: white;
+}
+#id3 {
+  font-size: 200%;
+  color: white;
+}
+#id4 {
+  background: rgba(0, 0, 0, 0.75);
+  margin: 100px;
+}
+h2.h {
+  color: white;
+}
+#id5 {
+  background: rgba(0, 0, 0, 0.75);
+  margin: 100px;
+}
+.selected {
+    background-color: rgba;
+    font-weight: bold;
+    color: white;
+}
+table.table1 {
+  border: 4px double;
+  padding: 0.5%;
+  margin: 2%;
+  font-size: 200%;
+  color: white;
+}
+#id2 {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  margin: 100px;
+}
+#players {
+    background: rgba(0, 0, 0, 0.75);
+  color: white;
+  margin: 100px;
+}
+table.table2 {
+  border: 4px double;
+  padding: 0.5%;
+  margin: 2%;
+  font-size: 200%;
+  color: white;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.75);
+    margin: 100px;
+
+}
+h3.h7 {
+  background: rgba(0, 0, 0, 0.1);
+}
+h4.h4 {
+  color: white;
+}

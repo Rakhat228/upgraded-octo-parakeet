@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Tasty cook</title>
+    </head>
+    <body>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles.css">
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      <style>
+          progress {
+            width: 5%;
+          }
+        </style>
+        <script src="index.js"></script>
+      </head>
+
+      <body>
+        <p>tc-touch</p>
+        <progress id="elem"></progress>
+
+        <script>
+          elem.onclick = function() {
+            animate({
+              duration: 1000,
+              timing: function(timeFraction) {
+                return timeFraction;
+              },
+              draw: function(progress) {
+                elem.style.width = progress * 100 + '%';
+              }
+            });
+          };
+        </script>
+
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <i class="fab " style="color: lightgrey; font-size:35px;"></i>
+          <a class="navbar-brand" href="">tc</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto" style="margin-top:3px;">
+              <li class="nav-item" >
+                <a class="nav-link" href="file:///C:/Users/aqua4/Desktop/web/about.html" style="color: white; ">About</a>
+              </li>
+            </ul>
+          </header>
+
+            <section>
+              <div class="hostdiv bg-dark">
+                <center>
+                  <a id="host">Tasty cook</a>
+                </center>
+              </div>
+            </section>
+
+            <section class="sec2 bg-light">
+              <div class="bg-light">
+                <p id="live">Most popular recipes</p>
+              </div>
+              <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <img src="dv1952003-58a4b43c5f9b58819cfbdc7c.jpg" alt="" class="liveimg">
+                  <h1 class="livetext">Croissant</h1>
+                  <p class="livetext">“The croissant began as the Austrian kipfel but became French the moment people began to make it with puffed pastry, which is a French innovation,” says Chevallier. ... Legend credits the French queen Marie Antoinette—homesick for a taste of her native Vienna—with introducing the kipfel, and thus the croissant, to France.</p>
+                  <input type="button" class="btn btn-dark" value="View recipe" onclick="Ohran1()" />
+                  <script type="text/javascript">
+                  function Ohran1( ) { location.href = 'https://www.youtube.com/watch?v=jw_yWmK6Fuo' }
+                  </script>
+          </div>
+                <div class="col-lg-3 col-md-6">
+                  <img src="2-37.jpg" alt="" class="liveimg">
+                  <h2 class="livetext">Beshbarmak</h2>
+                  <p class="livetext">Outside of Central Asia horse meat can be difficult to come by. In fact, some western countries have banned the sale and consumption of horse meat altogether. During the 2012 Olympics in London, the Kazakh national team had to petition the UK government to allow them to bring казы with them, arguing that it kept them fit and healthy for competition. In addition to beef and lamb, бешбармак in western Kazakhstan, where people have access to the Caspian Sea, is often prepared using fish. Sturgeon is preferred but salmon and trout are also acceptable.</p>
+
+                  <input type="button" class="btn btn-dark" value="View recipe" onclick="Ohran2()" />
+                  <script type="text/javascript">
+                  function Ohran2( ) { location.href = 'https://www.youtube.com/watch?v=kHtf3O_OU6M' }
+                  </script>
+          </div>
+                <div class="col-lg-3 col-md-6">
+                  <img src="chicken-alfredo-8-1200.jpg" alt="" class="liveimg">
+                  <h2 class="livetext">Fettuccine Alfredo</h2>
+                  <p class="livetext">Fettuccine Alfredo or fettuccine al burro ("fettuccine with butter") is an Italian pasta dish of fresh fettuccine tossed with butter and Parmesan cheese (Italian: pasta al burro e parmigiano). As the cheese melts, it emulsifies the liquids to form a smooth and rich sauce coating the pasta. The dish is named after Alfredo di Lelio, who featured the dish at his restaurant in Rome in the early- to mid-20th century; the "ceremony" of preparing it tableside was an integral part of the dish.</p>
+
+                  <input type="button" class="btn btn-dark" value="View recipe" onclick="Ohran3()" />
+                  <script type="text/javascript">
+                  function Ohran3( ) { location.href = 'https://www.youtube.com/watch?v=EkWteh5WRqg' }
+                  </script>
+          </div>
+                <div class="col-lg-3 col-md-6">
+                  <img src="56933159.jpg" alt="" class="liveimg">
+                  <h3 class="livetext">Pizza</h3>
+                  <p class="livetext">Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta. A person who makes pizza is known as a pizzaiolo.</p>
+                  <input type="button" class="btn btn-dark" value="View recipe" onclick="Ohran4()" />
+                  <script type="text/javascript">
+                  function Ohran4( ) { location.href = 'https://www.youtube.com/watch?v=vcfNpDtVqOw' }
+                  </script>
+                </div>
+              </div>
+            </section>
+
+            <section class="sec3 bg-light">
+              <p id="worldbig">Do you want <br>more recipes?</p>
+              <input type="button" class="btn btn-dark" value="More" onclick="Ohran5()" />
+              <script type="text/javascript">
+              function Ohran5( ) { location.href = 'https://www.gordonramsay.com/gr/recipes/' }
+              </script>
+            </section>
+
+            <section class="sec4 bg-light">
+              <div class="bg-light">
+                <p id="live">Main motivators</p>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-9">
+                  <img src="unnamed.jpg" alt="" class="expimg">
+                  <p class="boldtext">Gordon Ramsay</p>
+                  <p class="exptext">Gordon James Ramsay OBE is a British chef, restaurateur, television personality, and writer. Born in Johnstone, Scotland, and raised in Stratford-upon-Avon, England, he founded his global restaurant group, Gordon Ramsay Restaurants, in 1997. It has been awarded 16 Michelin stars in total and currently holds a total of seven. After rising to fame on the British television miniseries Boiling Point in 1999, Ramsay had become one of the best-known and most influential chefs in the UK by 2004.</p>
+                </div>
+                <div class="col-lg-4 col-md-9">
+                  <img src="photo5391339144225075502.jpg" alt="" class="expimg">
+                  <p class="boldtext">Sayan Ospanov</p>
+                  <p class="exptext">My friend. High qualified chef, has own vision to cooking, developed cooking skills. </p>
+                </div>
+              </div>
+            </section>
+</body>
+</html>
